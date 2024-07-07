@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/cards.css">
+    
+ 
+    <title>Document</title>
+</head>
+<body class="resenas">
+    <header>
+        <div href="index.html" class="logo">
+            <img src="Files/logo.png" alt="logo">
+            <h2 class="euury">Texto y otro</h2>
+        </div>
+        <nav>
+            <a href="index.html" class="nav-link">INICIO</a>
+            <a href="index.html#not" class="nav-link">NOTICIAS</a>
+            <a href="resenas.html" class="nav-link">RESEÑAS</a>
+            <a href="" class="nav-link">CONTACTO</a>
+    </header>
+
+    <section class="top5">
+        <h2 class="neon-text">
+            REVIEWS DEL MES
+        </h2>
+    </section>
+
+    <section class="slider-container">
+        <div class="slider-images">
+          <div class="slider-img">
+            <img src="Files/resenas/st.jpg" alt="1" />
+            <h1 class="ss">Top7</h1>
+            <div class="details">
+              <h2>STELLAR BLADE</h2>
+              <p>PS5<p>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="Files/h2.png" alt="2" />
+            <h1 class="ss">TOP6</h1>
+            <div class="details">
+              <a href="Reseñas/hades2.html">
+                <h2>HADES 2</h2>
+              </a>
+              <p>PC EARLY ACCESS</p>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="Files/resenas/unc.jpg" alt="3" />
+            <h1 class="ss">TOP5</h1>
+            <div class="details">
+              <h2>UNCHARTED 4</h2>
+              <p>PC</p>
+            </div>
+          </div>
+          <div class="slider-img active">
+            <img src="Files/resenas/tx.jpg" alt="4" />
+            <h1 class="ss">TOP4</h1>
+            <div class="details">
+              <h2>THE TEXAS CHAIN SAW MASSACRE</h2>
+              <p>PC/XBOX/PS5</p>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="Files/resenas/hd.jpg" alt="5" />
+            <h1 class="ss">TOP2</h1>
+            <div class="details">
+              <h2>HELLDRIVERS 2</h2>
+              <p>PC/PS5</p>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="Files/resenas/th.jpg" alt="6" />
+            <h1 class="ss">TOP2
+            </h1>
+            <div class="details">
+              <h2>THE LAST OF US PART I</h2>
+              <p>PS5</p>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="Files/tlou.jpg" alt="7" />
+            <h1 class="ss">TOP1</h1>
+            <div class="details">
+              <a href="Reseñas/tlou2.html">
+                <h2>THE LAST OF US PART II</h2>
+              </a>
+              <p>PS5</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="js/jQuery.js"></script>
+      <script>
+        jQuery(document).ready(function ($) {
+          $(".slider-img").on("click", function () {
+            $(".slider-img").removeClass("active");
+            $(this).addClass("active");
+          });
+        });
+      </script>
+
+  <div class="le">
+    <div class="box"><h1>NOTICIAS</h1></div>
+  </div>
+
+<div class="grid-container">
+    <!-- Repite este bloque para cada tarjeta -->
+    <div class="card" style="background-image: url('Files/resenas/ellie.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">THE LAST OF US PART II</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="Reseñas/tlou2.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/resenas/mk1.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">MORTAL KOMBAT 1</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/resenas/sh.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">SHADOW OF THE TOMB RAIDER</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="Reseñas/str.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/resenas/re4.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">RESIDENT EVIL 4 REMAKE</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/resenas/ds.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">DEAD SPACE REMAKE</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/resenas/sp.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">MARVELS SPIDERMAN 2</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/resenas/sh2.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">SILENT HILL 2</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/resenas/tr.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">TRANSISTOR</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/home.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">NOTICIA</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/home.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">NOTICIA</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/home.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">NOTICIA</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Files/home.jpg');">
+        <div class="card-content">
+            <h2 class="card-title">NOTICIA</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maiores nihil. Quis blanditiis laborum fuga, nemo aliquid saepe commodi, earum adipisci illo impedit omnis placeat error ipsa soluta hic molestiae!</p>
+            <a href="resenas.html" class="button">Leer más</a>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
